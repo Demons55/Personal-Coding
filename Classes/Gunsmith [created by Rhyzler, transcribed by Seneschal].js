@@ -808,8 +808,8 @@ AddSubClass("gunsmith", "spellslinger", {
 
 //Create New Gunsmith Weapons
 WeaponsList["musket-g"] = {
-    regExpSearch : /musket (gunsmith)/i,
-    name : "Musket (Gunsmith)",
+    regExpSearch : /musket/i,
+    name : "Musket",
     source : ["R:G", 8],
     list : "gunsmith",
     ability : 2,
@@ -822,8 +822,8 @@ WeaponsList["musket-g"] = {
     ammo : "Standard Musket Bullets"
 };
 WeaponsList["pistol-g"] = {
-    regExpSearch : /pistol (gunsmith)/i,
-    name : "Pistol (Gunsmith)",
+    regExpSearch : /pistol/i,
+    name : "Pistol",
     source : ["R:G", 8],
     list : "gunsmith",
     ability : 2,
@@ -850,8 +850,8 @@ WeaponsList["gunblade"] = {
     ammo : "Standard Pistol Bullets"
 };
 WeaponsList["revolver-g"] = {
-    regExpSearch : /revolver (gunsmith)/i,
-    name : "Revolver (Gunsmith)",
+    regExpSearch : /revolver/i,
+    name : "Revolver",
     source : ["R:G", 8],
     list : "gunsmith",
     ability : 2,
@@ -864,8 +864,8 @@ WeaponsList["revolver-g"] = {
     ammo : "Standard Revolver Bullets"
 };
 WeaponsList["shotgun-g"] = {
-    regExpSearch : /shotgun (gunsmith)/i,
-    name : "Shotgun (Gunsmith)",
+    regExpSearch : /shotgun/i,
+    name : "Shotgun",
     source : ["R:G", 8],
     list : "gunsmith",
     damage : [2, 8, "piercing"],
@@ -892,8 +892,8 @@ WeaponsList["sniperrifle-g"] = {
     ammo : "Standard Sniper Rifle Bullets"
 };
 WeaponsList["wristpistol-g"] = {
-    regExpSearch : /wrist pistol (gunsmith)/i,
-    name : "Wrist Pistol (Gunsmith)",
+    regExpSearch : /wrist pistol/i,
+    name : "Wrist Pistol",
     source : ["R:G", 8],
     list : "gunsmith",
     ability : 2,
